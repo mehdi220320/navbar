@@ -563,13 +563,18 @@
     background-size: cover;
   }
 
-@media (max-width: 760px) {
+  @media (max-width: 760px) {
     .logo {
       width: 94px;
       margin-left: -35px;
       margin-top: -14px;
       position: absolute; 
     }
+}
+@media (min-width: 761px) {
+  .logo {
+    display: none;
+  }
 }
 
 
